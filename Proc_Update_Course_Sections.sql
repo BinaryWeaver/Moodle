@@ -1,4 +1,4 @@
-CREATE DEFINER=`vucozxvwex_1`@`%` PROCEDURE `Update_Course_Sections`(IN `@MainCourseId` INT, IN `@TemplateCourseId` INT, IN `@TargetCourseId` INT)
+CREATE DEFINER=`db_name`@`%` PROCEDURE `Update_Course_Sections`(IN `@MainCourseId` INT, IN `@TemplateCourseId` INT, IN `@TargetCourseId` INT)
     MODIFIES SQL DATA
     COMMENT 'Finds mishyperlinked section details'
 UPDATE mdl_course_sections
